@@ -1,3 +1,4 @@
+import React from 'react';
 // components
 import ProductItem from "./components/ProductItem";
 
@@ -7,7 +8,6 @@ import { dataProducts } from "./data";
 import CartList from "./components/CartList";
 
 export default function App() {
-
   return (
     <div className="mainContent">
       <div className="card">
@@ -30,5 +30,5 @@ export default function App() {
       {/* cart */}
       <CartList />
     </div>
-  );
+  )
 }
